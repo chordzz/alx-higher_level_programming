@@ -103,4 +103,4 @@ class Rectangle:
         Method to return the string representation of the rectangle
         to be able to create a new instance
         """
-        return ('{}'.format(Rectangle(self.__width, self.__height)))
+        return '{}'.format(Rectangle(self.__width, self.__height))
