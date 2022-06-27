@@ -87,11 +87,12 @@ class Rectangle:
 
     def __str__(self):
         """ Method to print the string representation of our class
-            works for when we call print() and str() """
-        
+            works for when we call print() and str()
+        """
+
         if self.__width == 0 or self.__height == 0:
             return ""
-        
+
         printable = []
         for x in range(self.__height):
             printable.append("#" * self.__width)
