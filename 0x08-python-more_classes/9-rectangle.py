@@ -106,7 +106,7 @@ class Rectangle:
         Method to return the string representation of the rectangle
         to be able to create a new instance
         """
-        return ('{}'.format(Rectangle(self.__width, self.__height)))
+        return f'Rectangle({self.__width}, {self.__height})'
 
     def __del__(self):
         """ Method that runs when an instance is to be destroyed """
