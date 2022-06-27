@@ -5,4 +5,5 @@
 
 
 class Rectangle:
+    """A minimum rectangle class """
     pass
